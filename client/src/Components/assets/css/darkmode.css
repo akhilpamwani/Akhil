@@ -1,0 +1,39 @@
+.darkmode{
+    background-color: black;
+    color: white;
+}
+.lightmode{
+    background-color: white;
+    color: black;
+}
+.Form-Dark-Input{
+    background-color: inherit;
+}
+
+.Nav-Div-Dark{
+/* background-color: black; */
+display: grid;
+height: 5rem;
+align-items: center;
+/* margin: auto; */
+/* border: 5px solid red; */
+width: 100%;
+position: fixed;
+z-index: 5;
+background-color: inherit;
+box-shadow: 9px 7px 21px #0f62fe;
+}
+.Nav-anchr-dark {
+    color: inherit;
+    text-decoration: none;
+}
+.Skills-dark {
+    color: inherit;
+    height: 970px;
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid #0f62fe;
+}

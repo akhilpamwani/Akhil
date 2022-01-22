@@ -1,0 +1,14 @@
+.PgNotFound{
+display: flex;
+margin: auto;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+}
+/* .PgNotFound-h1{
+    
+}
+.PgNotFound-btn{
+    
+} */

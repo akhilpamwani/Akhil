@@ -1,0 +1,48 @@
+.Form-Control {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    border: 4px solid #0f62fe;
+}
+.Form {
+    display: flex;
+    flex-direction: column;
+    /* width: 115%; */
+    justify-content: center;
+    /* border: 4px solid #0f62fe; */
+    width: 309px;
+    text-align: center;
+    margin: auto;
+}
+.Form-Img {
+    display: flex;
+    margin-top: 1.5px;
+    width: 30px;
+    flex-direction: row;
+}
+
+.Form-Input {
+    border: 3px solid #0f62fe;
+    border-radius: 20px;
+    text-align: center;
+    color: inherit;
+}
+.Form-Submit {
+    background: none;
+    display: flex;
+    margin: 25px auto;
+    text-align: center;
+    border: 3px solid #0f62fe;
+    border-radius: 4px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 150px;
+    width: 200px;
+    color: #0f62fe;
+}

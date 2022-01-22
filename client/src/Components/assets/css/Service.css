@@ -1,0 +1,61 @@
+.Services-Control {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.Services-h3 {
+    text-align: center;
+    font-size: 50px;
+    margin: -15px auto;
+}
+.Services-intro {
+    justify-content: center;
+    margin:125px auto;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.Services-p {
+    text-align: center;
+    color: gray;
+}
+.Services-box {
+    width: 30%;
+    margin: auto;
+    height: 380px;
+    border: 3px solid #0f62fe;
+    padding: 5px;
+}
+.Services-Img {
+    width: 300px;
+    margin: 35px auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.Service-Heading {
+    text-align: center;
+}
+.Service-btn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 108px;
+    border: 2px solid #0f62fe;
+    background: none;
+    color: #0f62fe;
+    height: 30px;
+    align-items: center;
+    border-radius: 25px;
+}
+.Service-btn-Ing {
+    width: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 1.5px;
+}

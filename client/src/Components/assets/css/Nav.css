@@ -1,0 +1,77 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.NavDiv {
+    display: grid;
+    height: 5rem;
+    align-items: center;
+    /* margin: auto; */
+    /* border: 5px solid red; */
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: inherit;
+    box-shadow: 9px 7px 21px #0f62fe;
+}
+.Nav-anchr {
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+}
+.Nav-anchr:hover {
+    color: #0f62fe;
+    list-style: none;
+    text-decoration: none;
+}
+.Nav-ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: -19px auto;
+    /* border: 2px solid black; */
+    width: 45%;
+}
+.Nav-Li {
+    margin: 0px 5px;
+    flex-wrap: wrap;
+    font-family: ui-monospace;
+    font-weight: 600;
+}
+.Nav-Logo {
+    margin: 0px 15px;
+    font-size: 25px;
+    font-weight: 500;
+    list-style: none;
+    font-family: system-ui;
+}
+.Logo {
+    display: flex;
+    margin-top: 119px;
+    justify-content: flex-start;
+    margin: auto;
+    margin: -26px 25px;
+    /* border: 2px solid blue; */
+    width: 10%;
+}
+.Social-icons {
+    width: 36px;
+    margin: auto 5px;
+}
+
+.Social {
+    display: flex;
+    justify-content: flex-end;
+    margin: -29px 25px;
+}
+.Nav-img{
+    width: 60px;
+    margin: 5px 25px;
+}

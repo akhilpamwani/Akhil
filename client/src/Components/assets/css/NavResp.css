@@ -1,0 +1,92 @@
+.Nav-resp{
+display: none;
+}
+.Nav-resp-cl {
+    display: none;  
+}
+@media screen and (max-width: 665px) {
+    .Nav-resp{
+        display: flex;
+        box-shadow: 9px 7px 21px #0f62fe;
+        height: 350px;
+         position: fixed;
+         width: 100%;
+        background-color: inherit;
+        z-index: 5;
+        }
+        .Nav-resp-cl {
+            display: flex;
+            height: 110px;
+            position: fixed;
+            width: 100%;
+            background-color: inherit;
+            z-index: 5;
+            box-shadow: 9px 7px 21px #0f62fe;
+            height: 110px;
+        }
+        .Nav-Logo-resp {
+            width: 80px;
+            margin-left: 25px;
+            margin: auto;
+        }
+    .Social-icons-resp {
+        width: 100px;
+    }   
+    .Logo-resp {
+        margin: 15px;
+        width: 100px;
+    }
+    .Nav-anchr-resp {
+        color: inherit;
+        text-decoration: none;
+    } 
+    .Social-icons-resp {
+        width: 50px;
+    } 
+    .Nav-ul-Resp {
+        list-style: none;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .Social-resp {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        /* width: 50%; */
+        text-align: center;
+        flex-direction: row;
+        margin: 25px auto ;
+    }
+    .Social-icons-resp {
+        width: 40px;
+        margin: 0px 3px;
+    }
+    .NavBar-resp {
+        width: 100%;
+    }
+    .btn-Hamburger {
+        width: 50px;
+        justify-content: end;
+        margin: auto;
+        margin-top: -70px;
+        /* margin: auto; */
+        margin-right: 15px;
+    }
+    .Hamburger {
+        margin: auto;
+        display: flex;
+        /* margin-top: -60px; */
+    }
+    .Nav-ul-Resp-cl {
+        display: none;
+    }
+    .Nav-Li-Resp {
+        margin: 5px auto;
+    }
+}

@@ -1,0 +1,82 @@
+.Home {
+    margin-bottom: 150px;
+}
+.Right {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 56%;
+    margin-top: 125px;
+}
+.Right-Svg {
+    width: 550px;
+}
+.Main-img {
+    width: 112px;
+    height: 168px;
+    margin: auto 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    position: absolute;
+    left: 250px;
+    right: 25px;
+    margin-right: 550px;
+}
+.Home-Control {
+    display: flex;
+    /* align-content: flex-end; */
+    justify-content: flex-end;
+}
+/* .Left {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    /* height: 44%; */
+    /* width: auto; */
+    /* margin: 300px auto; */
+    /* width: 35%; */
+
+
+.Home-h1 {
+    font-size: 3.5rem;
+    margin: auto 331px;
+}
+.Home-h1-color {
+    color: #0f62fe;
+    display: flex;
+    flex-direction: column;
+    /* font-size: 2rem; */
+    
+}
+.Left {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+    align-items: center;
+}
+
+.btn-img {
+    width: 30px;
+    margin: -8px 0px;
+}
+.Home-btn {
+    /* height: 300px; */
+    font-size: 25px;
+    margin: 6px auto;
+    justify-content: center;
+    text-align: center;
+    /* display: flex; */
+    color: #0f62fe;
+    font-weight: 500;
+    border: 5px solid #0f62fe;
+    width: 177px;
+    border-radius: 19px;
+    text-align: center;
+    padding: 2px;
+    background: inherit;
+}

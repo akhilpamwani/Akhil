@@ -1,0 +1,139 @@
+.Full{
+    margin:  0px;
+}
+.Skills {
+    background: inherit;
+    height: 970px;
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    margin: auto;
+}
+.Skill {
+    color: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.Skill-h2 {
+    justify-content: flex-end;
+    display: flex;
+   
+}
+.Skill .Skill-li{
+    margin: 0px auto;
+    list-style-type: none;
+    width: 80%;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0,0.3);
+    overflow: hidden;
+    box-shadow: 0 0 10px darkblue;
+}
+.bar .Span-2{
+    height: 19px;
+    float: left;
+    background:#0f62fe;
+
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+.css{
+    width: 60%;
+    animation:css  2s;
+}
+.js{
+    width: 30%;
+    animation:js  2s;
+}
+.react{
+    width: 30%;
+    animation:react  2s;
+}
+.njs{
+    width: 50%;
+    animation:ndjs  2s; 
+}
+.mgdb{
+    width: 7%;
+    animation:mgdb  2s;
+}
+.bootstrap{
+    width: 25%;
+    animation:bootstrap  2s;
+}
+.Skill-h3-logo {
+    font-size: 59px;
+    justify-content: center;
+    margin: 60px auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.Skill-p {
+    font-size: medium;
+    margin-top: -60px;
+    color: grey;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+       width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+       width: 60%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+       width: 30%;
+    }
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+       width: 30%;
+    }
+}@keyframes mgdb{
+    0%{
+        width: 0%;
+    }
+    100%{
+       width: 7%;
+    }
+}
+@keyframes njs{
+    0%{
+        width: 0%;
+    }
+    100%{
+       width: 7%;
+    }
+}@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+       width: 25%;
+    }
+}

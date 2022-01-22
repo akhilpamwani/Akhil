@@ -1,0 +1,106 @@
+
+.Project-intro {
+    justify-content: center;
+    margin: 125px auto !important;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.Project-h3 {
+    text-align: center;
+    font-size: 50px;
+    margin: 21px auto;
+}
+.Project-p {
+    text-align: center;
+    color: gray;
+}
+.Project-Control {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.Project-h3 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px auto;
+    margin-top: 50px !important;
+}
+.Project-intro {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.Project-p {
+    text-align: center;
+    color: gray;
+}
+.Project-box {
+    width: 30%;
+    margin: auto;
+    height: 350px;
+    border: 3px solid #0f62fe;
+    padding: 5px;
+}
+.Project-Img {
+    width: 300px;
+    margin: 35px auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.Project-Heading {
+    text-align: center;
+}
+.Project-btn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 148px;
+    border: 2px solid #0f62fe;
+    background: none;
+    color: #0f62fe;
+    height: 30px;
+    align-items: center;
+    border-radius: 25px;
+}
+.Project-btn-Ing {
+    width: 20px;
+    margin: auto 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 1.5px;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 38px !important;
+    height: 13px !important;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 25px !important;
+}
+.carousel-control-next-icon {
+  
+    background-color: #0f62fe;
+}
+.carousel-control-prev-icon {
+   
+    background-color: #0f62fe;
+}
